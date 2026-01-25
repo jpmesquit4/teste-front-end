@@ -90,3 +90,32 @@
             }
         }
     }
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .Partnership {
+      width: 90%;
+      height: auto;
+
+      .Shadow-Partnership {
+        width: 100%;
+      }
+
+      .Partnership-Info {
+        padding: 40px 20px;
+
+        h3 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }

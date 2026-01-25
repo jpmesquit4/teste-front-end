@@ -764,3 +764,233 @@ footer {
         color: #3F3F40;
     }
 }
+
+@media (max-width: 768px) {
+
+  header {
+
+    .Top-Header {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+      align-items: center;
+    }
+
+    .Main-Header {
+      flex-direction: column;
+      gap: 15px;
+      margin: 0 20px;
+
+      .Input-Search {
+        left: 0;
+        width: 100%;
+
+        input {
+          width: 100%;
+        }
+
+        img {
+          right: 15px;
+        }
+      }
+
+      .Icons {
+        gap: 20px;
+      }
+    }
+
+    .Category-Header {
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 10px 20px;
+      height: auto;
+      padding: 10px;
+    }
+  }
+
+  .ImageOffer-50Off {
+    height: auto;
+
+    .Shadow-ImageOffer-50Off {
+      width: 100%;
+      height: 100%;
+    }
+
+    .Texts-ImageOffer-50Off {
+      padding: 30px;
+
+      h1 {
+        font-size: 28px;
+        width: 100%;
+        height: auto;
+        line-height: 34px;
+      }
+
+      p {
+        font-size: 20px;
+        width: 100%;
+      }
+
+      button {
+        margin-top: 20px;
+        width: 100%;
+      }
+    }
+  }
+
+  .Section-Topics {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+
+  .Section-Showcase {
+
+    .Title-Showcase {
+      flex-direction: column;
+      gap: 10px;
+
+      .Line {
+        width: 200px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+    }
+
+    .Topics-Showcase {
+      flex-wrap: wrap;
+
+      a {
+        width: 100%;
+      }
+    }
+
+    .Showcase {
+      flex-direction: column;
+      gap: 20px;
+
+      .Ball {
+        display: none;
+      }
+
+      .Card-Showcase {
+        width: 90%;
+        height: auto;
+
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .Section-Partnership {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    .Partnership {
+      width: 90%;
+      height: auto;
+
+      img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      .Shadow-Partnership {
+        width: 100%;
+      }
+
+      .Partnership-Info {
+        padding: 40px 20px;
+
+        h3 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .BrowseForBrands {
+
+    h2 {
+      font-size: 22px;
+    }
+
+    .Brands {
+      flex-wrap: wrap;
+      gap: 20px;
+
+      nav {
+        width: 100px;
+        height: 100px;
+
+        img {
+          width: 80px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .NewsLetter {
+    flex-direction: column;
+
+    .Text-NewsLetter,
+    .Info-NewsLetter {
+      width: 100%;
+      padding: 30px 20px;
+    }
+
+    .Input-and-Button-NewsLetter {
+      flex-direction: column;
+
+      input,
+      button {
+        width: 100%;
+      }
+
+      button {
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .Social-Media-Part {
+    align-items: center;
+      width: 100%;
+      padding: 40px 20px;
+
+      p {
+        width: 100%;
+      }
+    }
+
+    .Line-Divisor-Footer {
+      display: none;
+    }
+
+    .Useful-Links {
+      flex-direction: column;
+      gap: 40px;
+      padding: 40px 20px;
+    }
+  }
+
+  .Bottom-Footer {
+    text-align: center;
+    padding: 0 20px;
+  }
+}

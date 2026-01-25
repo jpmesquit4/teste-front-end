@@ -200,7 +200,6 @@ export default function App() {
                             onBuy={handleOpenModal}
                         />
 
-
                         <button
                             className="Ball"
                             onClick={() => setPage(prev => Math.min(prev + 1, totalPages))}
@@ -209,7 +208,6 @@ export default function App() {
                         >
                             <img className="Flip-Horizontal" src="src/assets/images/Arrow.svg" alt="Próximo produto" />
                         </button>
-
 
                     </div>
                 </section>
@@ -225,8 +223,6 @@ export default function App() {
                         image="src/assets/images/Partnership.png"
                         alt="Marcas parceiras da Econverse"
                     />
-
-
 
                 </section>
 
@@ -264,7 +260,6 @@ export default function App() {
                         >
                             <img className="Flip-Horizontal" src="src/assets/images/Arrow.svg" alt="Próximo produto" />
                         </button>
-
 
                     </div>
                 </section>
@@ -345,7 +340,6 @@ export default function App() {
                             <img className="Flip-Horizontal" src="src/assets/images/Arrow.svg" alt="Próximo produto" />
                         </button>
 
-
                     </div>
                 </section>
 
@@ -419,7 +413,6 @@ export default function App() {
                     onClose={handleCloseModal}
                 />
             )}
-
 
         </>
     )
