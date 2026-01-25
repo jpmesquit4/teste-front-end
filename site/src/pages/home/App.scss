@@ -277,6 +277,7 @@ header {
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+    gap: 5px;
 
     .Title-Showcase {
         display: flex;
@@ -610,6 +611,7 @@ header {
             font-weight: 300;
             font-size: 14px;
             line-height: 18px;
+            width: 515px;
         }
 
 
@@ -655,7 +657,7 @@ header {
             display: flex;
             flex-direction: row;
             align-items: center;
-            gap: 10px;
+            gap: 5px;
             margin-top: 10px;
 
             input[type="checkbox"]:not(:checked) {
