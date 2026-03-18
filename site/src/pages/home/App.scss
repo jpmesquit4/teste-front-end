@@ -945,6 +945,23 @@ footer {
   .NewsLetter {
     flex-direction: column;
 
+    h4 {
+        font-size: 24px !important;
+    }
+
+    .Text-NewsLetter {
+        padding-bottom: 0 !important;
+    }
+
+    .Text-NewsLetter > p {
+        font-size: 12px !important;
+        width: 300px !important;
+    }
+
+    .Checkbox-Terms > p {
+        font-size: 12px !important;
+    }  
+
     .Text-NewsLetter,
     .Info-NewsLetter {
       width: 100%;
@@ -952,7 +969,7 @@ footer {
     }
 
     .Input-and-Button-NewsLetter {
-      flex-direction: column;
+      flex-direction: column !important;
 
       input,
       button {
