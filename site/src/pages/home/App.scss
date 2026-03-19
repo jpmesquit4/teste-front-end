@@ -116,6 +116,11 @@ header {
             text-decoration: none;
         }
 
+        a:hover {
+            color: #3019B2;
+            cursor: pointer;
+        }
+
         div {
             display: flex;
             flex-direction: row;
@@ -128,6 +133,20 @@ header {
                 color: #9F9F9F;
                 font-weight: 600;
                 text-decoration: none;
+            }
+
+        }
+
+        .menu-item {
+            color: #9f9f9f;
+            cursor: pointer;
+        }
+
+        .menu-item:hover {
+            color: #3019B2;
+
+            a {
+                color: #3019B2;
             }
         }
     }
@@ -245,7 +264,7 @@ header {
 
         #Link-Purple-Card-Topics{
             color: #3019B2;
-        }
+        }     
 
         .Cards-Quad {
             display: flex;
@@ -264,8 +283,21 @@ header {
             img {
                 width: 61px;
                 height: 61px;
+
+                filter: brightness(0);
             }
+
         }
+
+        &:hover {
+        a {
+            color: #3019B2;
+        }
+
+        img {
+            filter: invert(6%) sepia(75%) saturate(6453%) hue-rotate(253deg) brightness(141%) contrast(95%);
+        }
+    }
 
     }
 
@@ -335,6 +367,13 @@ header {
 
             padding: 12px 0px;
 
+            transition: 0.3s;
+            
+        }
+
+        a:hover {
+                color: #3442B5;
+                font-weight: 700;
         }
 
 
