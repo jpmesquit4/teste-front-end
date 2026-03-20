@@ -47,17 +47,17 @@ export default function App() {
 
                 <div className='Top-Header'>
                     <div className='Topics'>
-                        <img src="src/assets/images/ShieldCheck.svg" alt="Ícone de compra 100% segura" />
+                        <img src="/images/ShieldCheck.svg" alt="Ícone de compra 100% segura" />
                         <p>Compra <span>100% Segura</span></p>
                     </div>
 
                     <div className='Topics'>
-                        <img src="src/assets/images/Truck.svg" alt="Ícone de frete grátis cima de 200 reais" />
+                        <img src="/images/Truck.svg" alt="Ícone de frete grátis cima de 200 reais" />
                         <p> <span>Frete grátis</span> acima de R$ 200</p>
                     </div>
 
                     <div className='Topics'>
-                        <img src="src/assets/images/CreditCard.svg" alt="Ícone de parcelamento de compra" />
+                        <img src="/images/CreditCard.svg" alt="Ícone de parcelamento de compra" />
                         <p> <span>Parcele</span> suas compras</p>
                     </div>
 
@@ -66,19 +66,19 @@ export default function App() {
                 <div className='Main-Header'>
 
                     <div>
-                        <img src="src/assets/images/Logo.png" alt="Econverse - Loja online de tecnologia e varejo" />
+                        <img src="/images/Logo.png" alt="Econverse - Loja online de tecnologia e varejo" />
                     </div>
 
                     <div className='Input-Search'>
                         <input type="text" placeholder='O que você está buscando?' />
-                        <img src="/src/assets/images/MagnifyingGlass.svg" alt="Ícone de busca" />
+                        <img src="/images/MagnifyingGlass.svg" alt="Ícone de busca" />
                     </div>
 
                     <div className='Icons'>
-                        <img src="src/assets/images/Box.svg" alt="Ícone de envio" />
-                        <img src="src/assets/images/Heart.svg" alt="Ícone de favoritos" />
-                        <img src="src/assets/images/UserCircle.svg" alt="Ícone do perfil do usuário" />
-                        <img src="src/assets/images/ShoppingCart.svg" alt="Ícone de carrinho de compras" />
+                        <img src="/images/Box.svg" alt="Ícone de envio" />
+                        <img src="/images/Heart.svg" alt="Ícone de favoritos" />
+                        <img src="/images/UserCircle.svg" alt="Ícone do perfil do usuário" />
+                        <img src="/images/ShoppingCart.svg" alt="Ícone de carrinho de compras" />
                     </div>
 
                 </div>
@@ -112,7 +112,7 @@ export default function App() {
             <main>
                 <section className="ImageOffer-50Off">
                     <img
-                        src="src/assets/images/RectangleOffer50.png"
+                        src="/images/RectangleOffer50.png"
                         alt="Promoção de 50% de desconto em produtos selecionados"
                         className="ImageOffer-50Off__image"
                     />
@@ -130,49 +130,49 @@ export default function App() {
 
                     <div className='Cards-Topics'>
                         <div className='Cards-Quad'>
-                            <img src="src/assets/images/Technology.svg" alt="Ícone do link para produtos relacionados a tecnologia" />
+                            <img src="/images/Technology.svg" alt="Ícone do link para produtos relacionados a tecnologia" />
                         </div>
                         <a href='/produtos/tecnologia'>Tecnologia</a>
                     </div>
 
                     <div className='Cards-Topics'>
                         <div className='Cards-Quad'>
-                            <img src="src/assets/images/SuperMarket.svg" alt="Ícone do link para produtos relacionados a supermercado" />
+                            <img src="/images/SuperMarket.svg" alt="Ícone do link para produtos relacionados a supermercado" />
                         </div>
                         <a href='/produtos/supermercado'>Supermercado</a>
                     </div>
 
                     <div className='Cards-Topics'>
                         <div className='Cards-Quad'>
-                            <img src="src/assets/images/Drinks.svg" alt="Ícone do link para produtos relacionados a bebidas" />
+                            <img src="/images/Drinks.svg" alt="Ícone do link para produtos relacionados a bebidas" />
                         </div>
                         <a href='/produtos/bebidas'>Bebidas</a>
                     </div>
 
                     <div className='Cards-Topics'>
                         <div className='Cards-Quad'>
-                            <img src="src/assets/images/Tools.svg" alt="Ícone do link para produtos relacionados a ferramentas" />
+                            <img src="/images/Tools.svg" alt="Ícone do link para produtos relacionados a ferramentas" />
                         </div>
                         <a href='/produtos/ferramentas'>Ferramentas</a>
                     </div>
 
                     <div className='Cards-Topics'>
                         <div className='Cards-Quad'>
-                            <img src="src/assets/images/Health.svg" alt="Ícone do link para produtos relacionados a saúde" />
+                            <img src="/images/Health.svg" alt="Ícone do link para produtos relacionados a saúde" />
                         </div>
                         <a href='/produtos/saude'>Saúde</a>
                     </div>
 
                     <div className='Cards-Topics'>
                         <div className='Cards-Quad'>
-                            <img src="src/assets/images/SportAndFitness.svg" alt="Ícone do link para produtos relacionados a esporte e fitness" />
+                            <img src="/images/SportAndFitness.svg" alt="Ícone do link para produtos relacionados a esporte e fitness" />
                         </div>
                         <a href='/produtos/esportesFitness'>Esportes e Fitness</a>
                     </div>
 
                     <div className='Cards-Topics'>
                         <div className='Cards-Quad'>
-                            <img src="src/assets/images/Fashion.svg" alt="Ícone do link para produtos relacionados a moda" />
+                            <img src="/images/Fashion.svg" alt="Ícone do link para produtos relacionados a moda" />
                         </div>
                         <a href='/produtos/moda'>Moda</a>
                     </div>
@@ -203,7 +203,7 @@ export default function App() {
                             disabled={page === 1}
                             aria-label="Página anterior"
                         >
-                            <img src="src/assets/images/Arrow.svg" alt="Produto anterior" />
+                            <img src="/images/Arrow.svg" alt="Produto anterior" />
                         </button>
 
                         <ProductList
@@ -217,7 +217,7 @@ export default function App() {
                             disabled={page === totalPages}
                             aria-label="Próxima página"
                         >
-                            <img className="Flip-Horizontal" src="src/assets/images/Arrow.svg" alt="Próximo produto" />
+                            <img className="Flip-Horizontal" src="/images/Arrow.svg" alt="Próximo produto" />
                         </button>
 
                     </div>
@@ -226,12 +226,12 @@ export default function App() {
                 <section className="Section-Partnership">
 
                     <Partnership
-                        image="src/assets/images/Partnership.png"
+                        image="/images/Partnership.png"
                         alt="Parceiros estratégicos da Econverse"
                     />
 
                     <Partnership
-                        image="src/assets/images/Partnership.png"
+                        image="/images/Partnership.png"
                         alt="Marcas parceiras da Econverse"
                     />
 
@@ -254,7 +254,7 @@ export default function App() {
                             disabled={page === 1}
                             aria-label="Página anterior"
                         >
-                            <img src="src/assets/images/Arrow.svg" alt="Produto anterior" />
+                            <img src="/images/Arrow.svg" alt="Produto anterior" />
                         </button>
 
                         <ProductList
@@ -269,7 +269,7 @@ export default function App() {
                             disabled={page === totalPages}
                             aria-label="Próxima página"
                         >
-                            <img className="Flip-Horizontal" src="src/assets/images/Arrow.svg" alt="Próximo produto" />
+                            <img className="Flip-Horizontal" src="/images/Arrow.svg" alt="Próximo produto" />
                         </button>
 
                     </div>
@@ -277,12 +277,12 @@ export default function App() {
 
                 <section className="Section-Partnership">
                     <Partnership
-                        image="src/assets/images/Partnership.png"
+                        image="/images/Partnership.png"
                         alt="Parceiros estratégicos da Econverse"
                     />
 
                     <Partnership
-                        image="src/assets/images/Partnership.png"
+                        image="/images/Partnership.png"
                         alt="Marcas parceiras da Econverse"
                     />
 
@@ -293,23 +293,23 @@ export default function App() {
 
                     <div className='Brands'>
                         <nav>
-                            <img src="src/assets/images/Brand-Econverse.png" alt="Logo-Econverse" />
+                            <img src="/images/Brand-Econverse.png" alt="Logo-Econverse" />
                         </nav>
 
                         <nav>
-                            <img src="src/assets/images/Brand-Econverse.png" alt="Logo-Econverse" />
+                            <img src="/images/Brand-Econverse.png" alt="Logo-Econverse" />
                         </nav>
 
                         <nav>
-                            <img src="src/assets/images/Brand-Econverse.png" alt="Logo-Econverse" />
+                            <img src="/images/Brand-Econverse.png" alt="Logo-Econverse" />
                         </nav>
 
                         <nav>
-                            <img src="src/assets/images/Brand-Econverse.png" alt="Logo-Econverse" />
+                            <img src="/images/Brand-Econverse.png" alt="Logo-Econverse" />
                         </nav>
 
                         <nav>
-                            <img src="src/assets/images/Brand-Econverse.png" alt="Logo-Econverse" />
+                            <img src="/images/Brand-Econverse.png" alt="Logo-Econverse" />
                         </nav>
 
                     </div>
@@ -333,7 +333,7 @@ export default function App() {
                             disabled={page === 1}
                             aria-label="Página anterior"
                         >
-                            <img src="src/assets/images/Arrow.svg" alt="Produto anterior" />
+                            <img src="/images/Arrow.svg" alt="Produto anterior" />
                         </button>
 
                         <ProductList
@@ -348,7 +348,7 @@ export default function App() {
                             disabled={page === totalPages}
                             aria-label="Próxima página"
                         >
-                            <img className="Flip-Horizontal" src="src/assets/images/Arrow.svg" alt="Próximo produto" />
+                            <img className="Flip-Horizontal" src="/images/Arrow.svg" alt="Próximo produto" />
                         </button>
 
                     </div>
@@ -379,14 +379,14 @@ export default function App() {
 
             <footer>
                 <div className='Social-Media-Part'>
-                    <img src="src/assets/images/LogoFooter.png" alt="Logo-Econverse" />
+                    <img src="/images/LogoFooter.png" alt="Logo-Econverse" />
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
                     <div className='Social-Media'>
-                        <img src="src/assets/images/Instagram.png" alt="Ícone-Instagram" />
-                        <img src="src/assets/images/Facebook.png" alt="Ícone-Facebook" />
-                        <img src="src/assets/images/Linkedin.png" alt="Ícone-Linkedin" />
+                        <img src="/images/Instagram.png" alt="Ícone-Instagram" />
+                        <img src="/images/Facebook.png" alt="Ícone-Facebook" />
+                        <img src="/images/Linkedin.png" alt="Ícone-Linkedin" />
                     </div>
                 </div>
 

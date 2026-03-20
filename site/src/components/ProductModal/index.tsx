@@ -50,13 +50,13 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
             <div className="Modal-Info">
               <div className="Modal-Counter">
                 <button onClick={decrease}>
-                  <img src="src/assets/images/Minus.svg" alt="Diminuir" />
+                  <img src="/images/Minus.svg" alt="Diminuir" />
                 </button>
 
                 <p>{formatQuantity(quantity)}</p>
 
                 <button onClick={increase}>
-                  <img src="src/assets/images/Plus.svg" alt="Aumentar" />
+                  <img src="/images/Plus.svg" alt="Aumentar" />
                 </button>
               </div>
                         
